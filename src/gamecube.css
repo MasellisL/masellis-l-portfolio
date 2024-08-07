@@ -1,0 +1,31 @@
+
+.main-gc-content{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right, #1b4965 , #a8d0db );
+}
+
+.project-images-container{
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+}
+.project-image{
+    width: 700px;
+}
+
+.image-and-text{
+    display: flex;
+    margin-top: 25px;
+}
+
+.img-text{
+    margin-left: 20px;
+}
+
+.back-button{
+    width:50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
