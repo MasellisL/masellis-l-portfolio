@@ -1,0 +1,43 @@
+.main-content{
+  margin: 0;
+  padding: 0;
+  background-color: darkcyan;
+}
+
+.story-text{
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  margin-top: 100px;
+  width: 520px;
+}
+
+.leo-text{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.leo-fact{
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.sticky-column{
+  height: 600px;
+  position: sticky;
+  top: 0;
+}
+
+.leo-links{
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  margin-right: 250px;
+}
+
+.social-icons{
+  width: 40px;
+  margin: 5px;
+}
