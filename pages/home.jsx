@@ -1,11 +1,13 @@
 import '../src/home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Link} from 'react-router-dom';
-import gitHub from "../public/git-hub.png";
-import linkedIn from "../public/linked-in.png";
-import gameCube from "../public/gamecube.png";
-import bayList from "../public/baylist.png";
-import typing from "../public/typing.png";
+import gitHub from "/git-hub.png";
+import linkedIn from "/linked-in.png";
+import gameCube from "/gamecube.png";
+import bayList from "/baylist.png";
+import typing from "/typing.png";
+import resume from "/Leo-resume.pdf"
+import resumeIcon from "/resume-icon.png"
 
 function Home() {
     return(
@@ -21,6 +23,7 @@ function Home() {
             <div className="leo-links">
             <a href="https://github.com/MasellisL"><img className="social-icons" src={gitHub}></img></a>
             <a href="https://www.linkedin.com/in/leo-masellis-76663a273/"><img className="social-icons" src={linkedIn}></img></a>
+            <a href={resume}><img className="social-icon-resume" src={resumeIcon}></img></a>
             </div> 
           </div>
           <div className="col-xl-6 scrollable-column">
@@ -29,7 +32,17 @@ function Home() {
               <p>My time now is spent learning new libraries for web development, and creating new projects in order to gain more and more experience each day. I have several projects that I am quite proud of. They are posted below.</p>
               <p>When I am not at the computer, I am usually playing the guitar. I have a great passion for making music; I really love emo and anything indie-rock.</p>
             </div>
+            <h2 className="experience-title">Experience.</h2>
+            <div className="experience-container">
+            <h3><a className="bvt" href="https://www.bayvalleytech.com/">Bay Valley Tech</a></h3>
+            <h4>Web Development Intern</h4>
+            <h5>August 28, 2023 - August 9, 2024 </h5>
+            <h3><a className="bvt" href="https://digitalnest.org/">Digital Nest</a></h3>
+            <h4>General Web Development Intern</h4>
+            <h5>August 27, 2024 - Present</h5>
+            </div>
             <h2 className="projects-title">Projects.</h2>
+            
             <div className="projects">
               <div className="project-container">
                 <Link to="/gamecube"><img src={gameCube} className="project-img"></img></Link>
@@ -39,20 +52,19 @@ function Home() {
                 </div>
               </div>
               <div className="project-container">
-                <img src={typing} className="project-img"></img>
+                <Link to="/typing"><img src={typing} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
                   <h4>Javascript Typing Game</h4>
-                  <p>This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your mistakes, your words per minute, and your accuracy. The characters in the passage change to green or red depending on if the input was correct or incorrect.</p>
+                  <p>This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your stats.</p>
                 </div>
               </div>
-              <div className="project-container">
-                <img src={bayList} className="project-img"></img>
+              <div className="bottom-project-container">
+                <Link to="/baylist"><img src={bayList} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
                   <h4>Group E-Commerce Website</h4>
                   <p>This is a full stack E-commerce website I worked on with my group at Bay Valley Tech. I was in charge of front end work, using Bootstrap and React. Users are able to sign up, make purchases, as well as list and sell items.</p>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>

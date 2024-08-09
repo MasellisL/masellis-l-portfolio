@@ -1,4 +1,4 @@
-import '../src/gamecube.css'
+import '../src/pages.css'
 import {Link} from 'react-router-dom';
 import gameCube from '/gamecube.png'
 import gameCubeCart from '/gamecube-cart.png'
