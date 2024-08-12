@@ -1,7 +1,6 @@
 import '../src/pages.css'
 import {Link} from 'react-router-dom';
 import bayList1 from '/baylist.png'
-import bayList2 from '/baylist-search.png'
 import bayList3 from '/baylist-register.png'
 import backButton from '/back-button.png'
 

@@ -27,7 +27,7 @@ function Gamecube() {
                 <div className="image-and-text">
                 <img className="project-image" src={gameCubeItems}></img>
                 <div className="img-text-container">
-                    <h1 className="img-text">Cart Page</h1>
+                    <h1 className="img-text">Controllers Page</h1>
                     <h2 className="img-text">Items are displayed here, and are able to be clicked in order to enlarge the image, read the description, and add the item to the cart.</h2>
                 </div>
                 </div>

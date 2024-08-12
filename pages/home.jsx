@@ -47,22 +47,22 @@ function Home() {
               <div className="project-container">
                 <Link to="/gamecube"><img src={gameCube} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4>Gamecube Controller E-Commerce Website</h4>
-                  <p>This is an E-commerce website that I made for myself to sell modded Gamecube controllers that I make. The website is made with React, and Bootstrap.</p>
+                  <h4 className="project-title-home">Gamecube Controller Website</h4>
+                  <p className="disappear">This is an E-commerce website that I made for myself to sell modded Gamecube controllers that I make. The website is made with React, and Bootstrap.</p>
                 </div>
               </div>
               <div className="project-container">
                 <Link to="/typing"><img src={typing} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4>Javascript Typing Game</h4>
-                  <p>This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your stats.</p>
+                  <h4 className="project-title-home">Javascript Typing Game</h4>
+                  <p className="disappear">This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your stats.</p>
                 </div>
               </div>
               <div className="bottom-project-container">
                 <Link to="/baylist"><img src={bayList} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4>Group E-Commerce Website</h4>
-                  <p>This is a full stack E-commerce website I worked on with my group at Bay Valley Tech. I was in charge of front end work, using Bootstrap and React. Users are able to sign up, make purchases, as well as list and sell items.</p>
+                  <h4 className="project-title-home">Group<br></br>Commerce Website</h4>
+                  <p className="disappear">This is a full stack E-commerce website I worked on with my group at Bay Valley Tech. I was in charge of front end work, using Bootstrap and React. Users are able to sign up, make purchases, as well as list and sell items.</p>
                 </div>
               </div>
             </div>

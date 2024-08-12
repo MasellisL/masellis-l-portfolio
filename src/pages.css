@@ -29,4 +29,20 @@
     margin-top: 10px;
 }
 
-
+@media (max-width: 1200px) {
+    .image-and-text{
+    display: flex;
+    flex-direction: column;
+  }
+    .project-image{
+    width: 300px;
+  }
+  .project-images-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+    .img-text{
+        margin-left: 5px;
+  }
+}
