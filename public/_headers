@@ -1,0 +1,2 @@
+/*
+  Content-Security-Policy: default-src 'self'; img-src *; script-src 'self' https://trusted.cdn.com; style-src 'self' https://trusted.cdn.com;
