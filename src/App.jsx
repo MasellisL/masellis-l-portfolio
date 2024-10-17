@@ -2,7 +2,8 @@ import { BrowserRouter as Router, Route, Routes,} from 'react-router-dom';
 import Home from '../pages/home.jsx'
 import Gamecube from '../pages/gamecube.jsx'
 import Typing from '../pages/typing.jsx'
-import Baylist from '../pages/baylist.jsx'
+import Scheduler from '../pages/scheduler.jsx'
+import Guitar from '../pages/guitar.jsx';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/typing" element={<Typing />} />
           <Route path="/gamecube" element={<Gamecube />} />
-          <Route path="/baylist" element={<Baylist />} />
+          <Route path="/scheduler" element={<Scheduler />} />
+          <Route path="/guitar" element={<Guitar />} />
         </Routes>
     </Router>
   );

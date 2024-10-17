@@ -4,8 +4,9 @@ import {Link} from 'react-router-dom';
 import gitHub from "/git-hub.png";
 import linkedIn from "/linked-in.png";
 import gameCube from "/gamecube.png";
-import bayList from "/baylist.png";
+import nestWork from "/nest-work-home.png";
 import typing from "/typing.png";
+import guitarNotes from "/guitar-notes.png";
 import resume from "/Leo-resume.pdf"
 import resumeIcon from "/resume-icon.png"
 
@@ -45,24 +46,31 @@ function Home() {
             
             <div className="projects">
               <div className="project-container">
-                <Link to="/gamecube"><img src={gameCube} className="project-img"></img></Link>
+              <Link to="/scheduler"><img src={nestWork} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4 className="project-title-home">Gamecube Controller Website</h4>
+                  <h4 className="project-title-home">Digital Nest<br></br>Meeting Scheduler</h4>
+                  <p className="disappear">Front-end JavaScript website made for Digital Nest for leads to use for scheduling one on one meetings for interns.</p>
+                </div>
+              </div>
+              <div className="project-container">
+              <Link to="/gamecube"><img src={gameCube} className="project-img"></img></Link>
+                <div className="gamecube-proj-desc">
+                  <h4 className="project-title-home">Gamecube Controller Commerce Website</h4>
                   <p className="disappear">This is an E-commerce website that I made for myself to sell modded Gamecube controllers that I make. The website is made with React, and Bootstrap.</p>
                 </div>
               </div>
               <div className="project-container">
-                <Link to="/typing"><img src={typing} className="project-img"></img></Link>
+              <Link to="/guitar"><img src={guitarNotes} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4 className="project-title-home">Javascript Typing Game</h4>
-                  <p className="disappear">This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your stats.</p>
+                  <h4 className="project-title-home">Guitar Notes Finder</h4>
+                  <p className="disappear">This a small front-end website I made for myself to use as a tool for writing music on guitar.</p>
                 </div>
               </div>
               <div className="bottom-project-container">
-                <Link to="/baylist"><img src={bayList} className="project-img"></img></Link>
+              <Link to="/typing"><img src={typing} className="project-img"></img></Link>
                 <div className="gamecube-proj-desc">
-                  <h4 className="project-title-home">Group<br></br>Commerce Website</h4>
-                  <p className="disappear">This is a full stack E-commerce website I worked on with my group at Bay Valley Tech. I was in charge of front end work, using Bootstrap and React. Users are able to sign up, make purchases, as well as list and sell items.</p>
+                  <h4 className="project-title-home">Javascript Typing Game</h4>
+                  <p className="disappear">This is a browser game that I made with Javascript. The game prompts you to type the passage shown above, and then starts a minute long timer. The website tracks your stats.</p>
                 </div>
               </div>
             </div>
