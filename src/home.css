@@ -28,10 +28,8 @@ body {
 }
 
 .leo-links {
-  margin-top: 50px;
   display: flex;
-  justify-content: center;
-  margin-right: 325px;
+  margin-left: 20%;
 }
 
 .project-container {
@@ -70,14 +68,14 @@ body {
 
 .leo-text {
   display: flex;
-  justify-content: center;
   margin-top: 100px;
+  margin-left: 20%;
   font-size: 60px;
 }
 
 .leo-fact {
   display: flex;
-  justify-content: center;
+  margin-left: 20%;
   font-size: 30px;
 }
 

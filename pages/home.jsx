@@ -16,10 +16,10 @@ function Home() {
         <div className="row">
           <div className="col-xl-6 sticky-column">
             <div className="leo-text">
-              <p>Leo Masellis,<br></br>Web Developer</p>
+              <h1>Leo Masellis,<br></br>Web Developer</h1>
             </div>
             <div className="leo-fact">
-              <p> I build beautiful and easy-to-use<br></br> websites for anyone.</p>
+              <h2> I build beautiful and easy-to-use<br></br> websites for anyone.</h2>
             </div>
             <div className="leo-links">
             <a href="https://github.com/MasellisL"><img className="social-icons" src={gitHub}></img></a>
