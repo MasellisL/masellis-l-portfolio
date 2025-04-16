@@ -15,8 +15,9 @@ function Home() {
       <div className="main-content">
         <div className="row">
           <div className="col-xl-6 sticky-column">
+            <p className="leo-name">Leo Masellis</p>
             <div className="leo-text">
-              <h1>Leo Masellis,<br></br>Web Developer</h1>
+              <h1>Front End Web Developer Portfolio<br></br></h1>
             </div>
             <div className="leo-fact">
               <h2> I build beautiful and easy-to-use<br></br> websites for anyone.</h2>

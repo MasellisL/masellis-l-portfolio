@@ -68,8 +68,14 @@ body {
 
 .leo-text {
   display: flex;
-  margin-top: 100px;
   margin-left: 20%;
+  font-size: 60px;
+}
+
+.leo-name {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 100px;
   font-size: 60px;
 }
 
