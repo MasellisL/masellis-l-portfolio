@@ -2,15 +2,16 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right, #1b4965 , #a8d0db );
-  overflow-x: hidden;
-  box-sizing: border-box;
 }
 
-.main-content {
+.introSection{
   width: 100%;
-  box-sizing: border-box;
 }
+
+.grassyImage{
+  width: 100%;
+}
+
 
 .row {
   display: flex;
