@@ -14,7 +14,6 @@ h1, h2, h3, p {
   background-image: url('../../src//assets/grassyBackground.webp');
       color: white;
       padding-top: 4rem;
-      padding-bottom: 40rem;
       background-repeat: no-repeat;
 }
 
@@ -30,4 +29,18 @@ h1, h2, h3, p {
 .myOccupation{
   font-size: 3.5rem;
   font-weight: 500;
+}
+
+.leoImage {
+  width: 20rem;
+  height: 18rem;
+  border-radius: 15rem 15rem 0 0;
+  object-fit: cover;
+  margin-right: 12rem;
+}
+
+.leoImageContainer{
+  display: flex;
+  justify-content: end;
+  width: 100%;
 }
